@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enigma do Cofre do Mago</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enigma do Cofre do Mago</h1>
+      <p class="description">
+        "Ordene a sequência e some todos os números, exceto um, para descobrir a menor e a maior soma possível."
+      </p>
+
+      <div class="input-group">
+        <label for="numbers">Insira 5 números separados por vírgula:</label>
+        <input type="text" id="numbers" placeholder="Ex: 1, 3, 5, 7, 9" />
+      </div>
+
+      <div class="button-group">
+        <button id="solve" style="--clr: #ffa500"><span>DESVENDAR</span><i></i></button>
+        <button id="reset" style="--clr: #ffa500"><span>RETORNAR</span><i></i></button>
+      </div>
+
+      <div class="result-container">
+        <h2>Resultado:</h2>
+        <div id="result"></div>
+        <div id="calculation"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
